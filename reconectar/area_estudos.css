@@ -1,0 +1,238 @@
+
+h2 {
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    color: rgb(245, 99, 0);
+    text-transform: uppercase;
+}
+
+p {
+    margin: 50px 100px 0px 100px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* curso */
+
+.curso-estudo {
+    display: block;
+    margin: 80px 0px 0px 100px;
+    height: 15rem;
+    width: 32rem;
+    background-image: url('imagens/anuncio_cursos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2%;
+    color: rgb(255, 255, 255);
+}
+
+.curso-estudo h3 {
+    display: inline-block;
+    margin: 50px 0px 20px 200px;
+    height: 20px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+.curso-estudo ul li {
+    list-style-type: none;
+    margin: 5px 0px 0px 30px;
+}
+
+.curso-estudo li:hover {
+    color: rgb(245, 99, 0);
+    cursor: pointer;
+}
+
+/*aluno*/
+
+.aluno-estudo {
+    display: block;
+    margin: -240px 100px 0px 0px;
+    height: 15rem;
+    width: 32rem;
+    background-image: url('imagens/anuncio_aluno.png');
+    transform: scaleX(-1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2%;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+.aluno-estudo h3 {
+    display: inline-block;
+    transform: scaleX(-1);
+    margin: 50px 0px 20px 230px;
+    height: 20px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+.aluno-estudo ul li {
+    list-style-type: none;
+    transform: scaleX(-1);
+    margin: 10px 70px 0px 0px;
+}
+
+.aluno-estudo li:hover {
+    color: rgb(245, 99, 0);
+    cursor: pointer;
+}
+
+/* professor */
+
+.professor-estudo {
+    display: block;
+    margin: 80px 0px 0px 100px;
+    height: 15rem;
+    width: 32rem;
+    background-image: url('imagens/anuncio_professor.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2%;
+    color: rgb(255, 255, 255);
+}
+
+.professor-estudo h3 {
+    display: inline-block;
+    margin: 50px 0px 20px 200px;
+    height: 20px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+.professor-estudo ul li {
+    list-style-type: none;
+    margin: 5px 0px 0px 30px;
+}
+
+.professor-estudo li:hover {
+    color: rgb(245, 99, 0);
+    cursor: pointer;
+}
+
+ /* matrícula */
+
+.matricula-estudo {
+    display: block;
+    margin: -240px 100px 0px 0px;
+    height: 15rem;
+    width: 32rem;
+    background-image: url('imagens/anuncio_matricula.png');
+    transform: scaleX(-1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2%;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+.matricula-estudo h3 {
+    transform: scaleX(-1);
+    display: inline-block;
+    margin: 50px 0px 20px 180px;
+    height: 20px;
+    width: 130px;
+    text-transform: uppercase;
+}
+
+.matricula-estudo ul li {
+    list-style-type: none;
+    transform: scaleX(-1);
+    margin: 10px 70px 0px 0px;
+}
+
+.matricula-estudo li:hover {
+    color: rgb(245, 99, 0);
+    cursor: pointer;
+}
+
+/* FAIXA */
+
+.faixa ul {
+    height: 0rem;
+    margin: 150px 0px -100px 0px;
+    border: 1px solid rgb(245, 99, 0);
+    background-color: rgb(245, 99, 0);  
+}
+
+.faixa ul li{
+    list-style-type: none;
+}
+
+/* FOOTER */
+
+footer {
+    display: block;
+    height: 280px;
+    margin: 0px 0px -19px 0px;
+    background-color: rgb(28, 28, 30);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer img {
+    margin: 20px 160px 0px 0px;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+.footer1 h3 {
+    padding: 70px 0px 0px 0px;
+    margin: 100px 0px 30px 200px;
+    color: rgb(245, 99, 0);
+    text-transform: uppercase; 
+}
+
+.footer1 ul li {
+    list-style-type:disclosure-closed;
+    margin: -20px 0px 0px 200px;
+    line-height: 50px;
+    font-size: 14px;
+    transition: .4s cubic-bezier(0.55, 0.025, 0.675, 0.97);    
+}
+
+.footer1 a:hover {
+    font-size: 15px;
+    color: rgb(245, 99, 0);
+    text-decoration:underline;
+}
+
+.footer1 a {
+    height: 50px;
+    width: 120px;   
+    display: block;
+    color: rgb(255, 255, 255);
+    transition: .2s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+}
+
+.footer2 h3 {
+    margin: -190px 0px 30px 500px;
+    color: rgb(245, 99, 0);
+    text-transform: uppercase;
+}
+
+.footer2 ul li{
+    list-style-type: disclosure-closed;
+    margin: -20px 0px 0px 500px;
+    line-height: 50px;
+    font-size: 14px;
+    transition: .4s cubic-bezier(0.55, 0.025, 0.675, 0.97);    
+}
+
+.footer2 a:hover {
+    font-size: 15px;
+    color: rgb(245, 99, 0);
+    text-decoration:underline;
+}
+
+.footer2 a {
+    height: 50px;
+    width: 120px;
+    display: block;
+    color: rgb(255, 255, 255);
+    transition: .2s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+}

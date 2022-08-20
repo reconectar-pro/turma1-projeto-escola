@@ -1,0 +1,87 @@
+
+
+.cabeçalho {
+    height: 80px;
+    display: block;
+    width: auto;
+    background-color: rgb(21, 22, 27);
+    padding: 10px 10px;
+}
+
+.logo {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 160px;
+}
+
+.login {
+    display: block;
+    float: right;
+    height: 70px;
+    width: 70px;
+    margin: 10px 10px 10px 10px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    margin: 5px 5px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: .4s cubic-bezier(0.55, 0.025, 0.675, 0.97);    
+}
+
+.menu ul li :nth-child(5) {
+    list-style-type: none;
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    margin: 5px 5px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: .4s cubic-bezier(0.55, 0.025, 0.675, 0.97); 
+}
+
+
+a:hover {
+    color: rgb(21, 22, 27);
+    background-color: rgb(240, 213, 84);
+    border-radius: 2px;
+}
+
+a {
+    height: 100%;
+    width: 100%;
+    padding-top: 15px; 
+    display: block;
+    color: rgb(240, 213, 84);
+    font-size: 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .4s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+}
+
+.faixa ul {
+    height: 0px;
+    margin: 0px;
+    border: 1px solid rgb(240, 213, 84);
+    background-color: rgb(240, 213, 84);
+    
+}
+.faixa ul li{
+    list-style-type: none;
+
+}
+
+
+
+
+
+
+
+    
